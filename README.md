@@ -9,9 +9,15 @@ $ npm install --save-dev dora-plugin-opn
 
 ## Usage
 
+This plugin is base on [opn](https://www.npmjs.com/package/opn), options can be specified with query-string.
+
 ```shell
 # open the default target `http://localhost:${dora-port}`
 dora --plugins open
+
+# specify target with `http://localhost:8000`
 dora --plugins open?target=http://localhost:8000
+
+# specify target and app
 dora --plugins open?target=http://localhost:8000&app[]=chrome&app[]=google-chrome
 ```
