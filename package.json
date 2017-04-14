@@ -1,0 +1,31 @@
+{
+  "name": "dora-plugin-opn",
+  "version": "1.0.0",
+  "description": "Open stuff like websites, files, executables etc. after dora server started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dora",
+    "plugin",
+    "open",
+    "opn"
+  ],
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/dora-plugin-open.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bubkoo/dora-plugin-open/issues"
+  },
+  "homepage": "https://github.com/bubkoo/dora-plugin-open#readme",
+  "dependencies": {
+    "opn": "^4.0.2"
+  }
+}
